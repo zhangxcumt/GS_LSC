@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this repository."
+title: "GS-LSC: least-squares collocation with a block Gauss-Seidel iterative solver"
+abstract: >-
+  MATLAB implementation of three solvers for the least-squares collocation
+  normal equations: standard (Cholesky) collocation, sequential collocation in
+  the sense of Moritz and Tscherning, and a block Gauss-Seidel iteration whose
+  storage is independent of the number of observations. Includes the Colorado
+  test field of the 1-cm geoid experiment and the scripts reproducing the
+  tables and figures of the paper.
+version: 1.0.0
+date-released: "2026-10-23"
+license: MIT
+repository-code: "https://github.com/CHANGE-ME/GS-LSC"
+url: "https://github.com/CHANGE-ME/GS-LSC"
+authors:
+  - family-names: Zhang
+    given-names: Xun
+    email: zhangxun@cumt.edu.cn
+  - family-names: Chang
+    given-names: Lubin
+    email: 1410021052@nue.edu.cn
+  - family-names: Chang
+    given-names: Guobin
+references:
+  - type: article
+    title: >-
+      Regional gravity field modelling by least-squares collocation with a
+      block Gauss-Seidel iterative solver
+    authors:
+      - family-names: Zhang
+        given-names: Xun
+      - family-names: Chang
+        given-names: Lubin
+      - family-names: Chang
+        given-names: Guobin
+    journal: Computers & Geosciences
+    year: 2026
+    status: submitted
+keywords:
+  - least-squares collocation
+  - sequential collocation
+  - block Gauss-Seidel
+  - regional gravity field
+  - geoid
+  - storage complexity
